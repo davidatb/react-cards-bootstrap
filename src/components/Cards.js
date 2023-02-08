@@ -8,6 +8,7 @@ const cards = [
     image:
       "https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2014/10/359333-kawasaki-ninja-h2r-presenta-300-cv-turbo.jpg?itok=3DkHYKVF",
     url: "https://www.kawasaki.com.mx/",
+    text: "Kawasaki ninja h2r 2023",
   },
   {
     id: 2,
@@ -49,7 +50,7 @@ const cards = [
 
 function Cards() {
   return (
-    <div className="container d-flex justify-content-center h-100 align-items-center">
+    <div className="container d-flex justify-content-center h-80 align-items-center">
       <div className="row">
         {cards.map((card) => (
           <div className="col-md-4" key={card.id}>
