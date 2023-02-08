@@ -27,7 +27,7 @@ const cards = [
   //   Europeas
   {
     id: 4,
-    title: "BMW",
+    title: "bmw",
     image: "https://i.ytimg.com/vi/bLupFwirDuQ/maxresdefault.jpg",
     url: "https://www.bmw.com.mx/",
     text: "BMW 1000rr 2023",

@@ -6,14 +6,14 @@ function Card({ title, imageSource, text, url }) {
   return (
     <div className="card text-center bg-dark animate__animated animate__fadeInUp mx-2 my-2">
       <div className="overflow">
-        <img src={imageSource} className="card-img-top " alt="" height="200px"/>
+        <img src={imageSource} className="card-img-top " alt="" height="200px" />
       </div>
       <div className="card-body text-light">
-        <h4 className="card-title">{title}</h4>
+        <h4 className="card-title text-lowercase text-capitalize">{title}</h4>
         <p className="card-text text-secondary">
           {text ? text : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."}
         </p>
-        <a href={url} target="_blank" rel="noreferrer" className="btn btn-outline-secondary rounded-0">
+        <a href={url} target="_blank" rel="noreferrer" className="btn btn-outline-primary rounded-0">
           Go to this website
         </a>
       </div>
